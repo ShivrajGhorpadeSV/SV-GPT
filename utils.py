@@ -9,7 +9,7 @@ def get_redshift_connection():
         user='your_db_user',
         password='your_db_password',
         host='your_db_host',
-        port='your_db_port'
+        port=5439
     )
     return conn
 
